@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amanda VIP - Acesso Exclusivo 🔥</title>
+
+  <!-- Pixel Meta -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', 'SEU_PIXEL_AQUI');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
+  </script>
+
+  <!-- Estilo -->
+  <style>
+    /* Fundo animado */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+
+      background: linear-gradient(135deg, #7b2fff, #3f00ff, #8a00ff);
+      background-size: 400% 400%;
+      animation: gradientMove 12s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Card central */
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 38px 30px;
+      border-radius: 22px;
+      max-width: 430px;
+      width: 90%;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      line-height: 1.5;
+      opacity: 0.95;
+      margin-bottom: 25px;
+    }
+
+    /* Foto redonda */
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+    }
+
+    /* Botão neon */
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #3f00ff;
+      padding: 16px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.25s;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.55);
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.85);
+    }
+
+    /* Responsividade para celular */
+    @media (max-width: 480px) {
+
+      body {
+        padding: 20px 10px;
+      }
+
+      .card {
+        padding: 28px 20px;
+        width: 100%;
+        max-width: 360px;
+        border-radius: 18px;
+      }
+
+      .photo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+      }
+
+      .title {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 22px;
+      }
+
+      .btn {
+        font-size: 16px;
+        padding: 14px 18px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img src="img/amanda.png" alt="Amanda" class="photo">
+
+    <div class="title">Amanda VIP Private 🔥</div>
+
+    <div class="subtitle">
+      Entre agora no meu canal secreto e aproveite conteúdos exclusivos que não posto em nenhum outro lugar.  
+      <br><br>O acesso é liberado automaticamente após o pagamento via PIX.
+    </div>
+
+    <a class="btn" onclick="entrarVIP()">Entrar no VIP 🔥</a>
+  </div>
+
+  <script>
+    function entrarVIP() {
+      fbq('track', 'Lead');
+
+      setTimeout(() => {
+        window.location.href = "https://t.me/amanda211bot?start=fb_lead";
+      }, 600);
+    }
+  </script>
+
+</body>
+</html>
